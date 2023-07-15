@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 public class honeyCell : MonoBehaviour
 {
+    const int manualClick = 3;
+
     public Sprite filledCell;
     public bool isEmpty = true;
-    public GameObject workerBee;
 
     private beeTrafficController hiveMind;
     private honeyCounter honeyCounter;
     private SpriteRenderer sr;
 
-    public void empty()
+    public void empty(int increment = 1)
     {
         isEmpty = true;
         sr.sprite = null;
         hiveMind.emptyCells.Enqueue(this);
-        honeyCounter.totalHoney++;
+        honeyCounter.totalHoney += increment;
     }
 
     public void fill()
@@ -42,8 +43,7 @@ public class honeyCell : MonoBehaviour
     {
         if (!isEmpty)
         {
-            empty();
-            Instantiate(workerBee, transform.position, Quaternion.identity);
+            empty(manualClick);
         }
     }
 }
