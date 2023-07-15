@@ -386,7 +386,7 @@ MonoBehaviour:
   queenBee: {fileID: 430236303108874378, guid: 402de078eb29bf9408b3e97457ec30a4, type: 3}
   hive: {fileID: 0}
   price: 5
-  priceInfo: {fileID: 0}
+  priceInfo: {fileID: 8971518896489560171, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
 --- !u!58 &3024522614073183353
 CircleCollider2D:
   m_ObjectHideFlags: 0
