@@ -7,6 +7,7 @@ public class workerBee : MonoBehaviour
 {
     public float timeToReachFlower = 2.0f;
     public float timeToReachHoneyCell = 2.0f;
+    public ParticleSystem honeyTrail;
 
     private beeTrafficController hiveMind;
     private GameObject[] flowers;
@@ -31,6 +32,7 @@ public class workerBee : MonoBehaviour
     private void pollenate()
     {
         hiveMind.pollinatedBees.Enqueue(this);
+        honeyTrail.Play();
     }
 
     public void targetEmptyCell(honeyCell cell)
@@ -43,6 +45,7 @@ public class workerBee : MonoBehaviour
     private void depositHoney()
     {
         targetCell.fill();
+        honeyTrail.Stop();
         goToFlower();
     }
 
