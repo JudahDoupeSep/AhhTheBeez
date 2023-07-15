@@ -728,6 +728,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3942698693224955214, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
+      propertyPath: totalHoney
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5870796587787338720, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
       propertyPath: m_RootOrder
       value: 5

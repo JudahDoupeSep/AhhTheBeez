@@ -25,9 +25,7 @@ public class hivePurchaseButton : MonoBehaviour
         if (totalHoney.totalHoney >= price)
         {
             totalHoney.totalHoney -= price;
-            GameObject newHive = Instantiate(hive, transform.position, Quaternion.identity);
-            GameObject newQueenBeeButton = Instantiate(queenBeePurchaseButton, transform.position, Quaternion.identity);
-            newQueenBeeButton.GetComponent<queenBeePurchase>().hive = newHive;
+            Instantiate(hive, transform.position, Quaternion.identity);
             // TODO: make this button invisible until we have enough honey to purchase?
             if (nextPosition < newHivePositions.Length)
             {

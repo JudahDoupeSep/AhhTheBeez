@@ -15,7 +15,7 @@ public class queenBeePurchase : MonoBehaviour
         if (totalHoney.totalHoney > price)
         {
             totalHoney.totalHoney -= price;
-            GameObject newQueen = Instantiate(queenBee);
+            GameObject newQueen = Instantiate(queenBee, transform.position, Quaternion.identity);
             newQueen.GetComponent<queenBee>().setHive(hive);
             Destroy(gameObject);
         }

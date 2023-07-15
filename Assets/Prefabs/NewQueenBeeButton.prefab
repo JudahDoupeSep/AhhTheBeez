@@ -346,6 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827370642476570375}
   - component: {fileID: 1588787493058436044}
+  - component: {fileID: 3024522614073183353}
   m_Layer: 0
   m_Name: NewQueenBeeButton
   m_TagString: Untagged
@@ -385,6 +386,41 @@ MonoBehaviour:
   queenBee: {fileID: 430236303108874378, guid: 402de078eb29bf9408b3e97457ec30a4, type: 3}
   hive: {fileID: 0}
   price: 5
+--- !u!58 &3024522614073183353
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5669899296064843815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.9}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &7702205308823019140
 GameObject:
   m_ObjectHideFlags: 0
