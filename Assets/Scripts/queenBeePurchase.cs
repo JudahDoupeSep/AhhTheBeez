@@ -18,6 +18,9 @@ public class queenBeePurchase : MonoBehaviour
     {
         GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
         totalHoney = controller.GetComponent<honeyCounter>();
+
+        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
+        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
     }
 
     private void OnMouseDown()
@@ -28,17 +31,7 @@ public class queenBeePurchase : MonoBehaviour
             GameObject newQueen = Instantiate(queenBee, transform.position, Quaternion.identity);
             newQueen.GetComponent<queenBee>().setHive(hive);
             Destroy(gameObject);
+            Destroy(priceDisplay);
         }
-    }
-
-    private void OnMouseEnter()
-    {
-        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
-        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
-    }
-
-    private void OnMouseExit()
-    {
-        Destroy(priceDisplay);
     }
 }
