@@ -20,7 +20,7 @@ public class queenBeePurchase : MonoBehaviour
         totalHoney = controller.GetComponent<honeyCounter>();
 
         priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
-        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
+        priceDisplay.GetComponentInChildren<TextMeshPro>().text = string.Format("Buy Queen Bee: {0}", price.ToString());
     }
 
     private void OnMouseDown()

@@ -11,7 +11,8 @@ public class queenBee : MonoBehaviour
 
     public float timeToWait = 5f;
     public float timeBetweenCollection = 0.15f; 
-    public int price = 3;
+    public int workerBeePrice = 3;
+    public float scale = 0.3f;
     public GameObject workerBee;
     public GameObject hive;
 
@@ -70,11 +71,12 @@ public class queenBee : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (totalHoney.totalHoney > price)
+        if (totalHoney.totalHoney > workerBeePrice)
         {
-            totalHoney.totalHoney -= price;
+            totalHoney.totalHoney -= workerBeePrice;
             Instantiate(workerBee, transform.position, Quaternion.identity);
             totalBees.totalBees++;
+            workerBeePrice = (int)(scale * totalBees.totalBees + workerBeePrice);
         }
     }
 }
