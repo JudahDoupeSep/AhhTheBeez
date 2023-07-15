@@ -8,6 +8,7 @@ public class honeyCell : MonoBehaviour
     public GameObject workerBee;
 
     private beeTrafficController hiveMind;
+    private honeyCounter honeyCounter;
     private SpriteRenderer sr;
 
     public void empty()
@@ -15,6 +16,7 @@ public class honeyCell : MonoBehaviour
         isEmpty = true;
         sr.sprite = null;
         hiveMind.emptyCells.Enqueue(this);
+        honeyCounter.totalHoney++;
     }
 
     public void fill()
@@ -26,8 +28,10 @@ public class honeyCell : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sr = GetComponentInChildren<SpriteRenderer>();
-        hiveMind = GameObject.FindGameObjectWithTag("HiveMind").GetComponent<beeTrafficController>();
+        sr = GetComponent<SpriteRenderer>();
+        GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
+        hiveMind = controller.GetComponent<beeTrafficController>();
+        honeyCounter = controller.GetComponent<honeyCounter>();
         if (isEmpty && hiveMind != null)
         {
             hiveMind.emptyCells.Enqueue(this);

@@ -7,23 +7,17 @@ public class hivePurchaseButton : MonoBehaviour
     public GameObject hive;
     public Vector3[] newHivePositions;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    private int nextPosition = 0;
 
     private void OnMouseDown()
     {
         // TODO: spend honey
         Instantiate(hive, transform.position, Quaternion.identity);
-        // TODO: make invisible
-        // TODO: move to next hive position
+        // TODO: make this button invisible until we have enough honey to purchase?
+        if (nextPosition < newHivePositions.Length)
+        {
+            transform.position = newHivePositions[nextPosition];
+            nextPosition++;
+        }
     }
 }
