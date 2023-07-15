@@ -6,8 +6,12 @@ public class queenBee : MonoBehaviour
 {
     private honeyCell[] honeyCells;
     private float timeLastHarvested = 0;
+    private honeyCounter totalHoney;
 
     public float timer = 10;
+    public int price = 3;
+    public GameObject workerBee;
+    public GameObject hive;
     
     public void setHive(GameObject hive)
     {
@@ -15,7 +19,15 @@ public class queenBee : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start() {}
+    void Start() 
+    {
+        GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
+        totalHoney = controller.GetComponent<honeyCounter>();
+        if (hive != null)
+        {
+            setHive(hive);
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,6 +39,15 @@ public class queenBee : MonoBehaviour
             {
                 cell.empty();
             }
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        if (totalHoney.totalHoney > price)
+        {
+            totalHoney.totalHoney -= price;
+            Instantiate(workerBee);
         }
     }
 }
