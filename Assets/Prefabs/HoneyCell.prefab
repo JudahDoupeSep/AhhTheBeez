@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1649676924414109406}
   - component: {fileID: 3536405556936095065}
   - component: {fileID: 8273484575618586382}
+  - component: {fileID: 2621293336559528260}
   m_Layer: 0
   m_Name: HoneyCell
   m_TagString: Untagged
@@ -100,3 +101,55 @@ MonoBehaviour:
   filledCell: {fileID: 21300000, guid: 145cd2ebcbd906c4cbf1e1780ecf140a, type: 3}
   isEmpty: 1
   hiveMind: {fileID: 0}
+  workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
+--- !u!60 &2621293336559528260
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8511013297890781282}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.24, y: 2.34}
+    newSize: {x: 2.24, y: 2.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1.1}
+      - {x: -1.07, y: 0.55}
+      - {x: -1.07, y: -0.55}
+      - {x: 0, y: -1.1}
+      - {x: 1.07, y: -0.55}
+      - {x: 1.07, y: 0.55}
+  m_UseDelaunayMesh: 0

@@ -23,13 +23,6 @@ public class honeyCell : MonoBehaviour
         sr.sprite = filledCell;
     }
 
-    public void spawnBee()
-    {
-        empty();
-        workerBee newBee = Instantiate(workerBee, transform.position, Quaternion.identity).GetComponent<workerBee>();
-        newBee.hiveMind = hiveMind;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +30,16 @@ public class honeyCell : MonoBehaviour
         if (isEmpty && hiveMind != null)
         {
             hiveMind.emptyCells.Enqueue(this);
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        if (!isEmpty)
+        {
+            empty();
+            workerBee newBee = Instantiate(workerBee, transform.position, Quaternion.identity).GetComponent<workerBee>();
+            newBee.hiveMind = hiveMind;
         }
     }
 }
