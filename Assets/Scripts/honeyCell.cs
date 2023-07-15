@@ -14,10 +14,13 @@ public class honeyCell : MonoBehaviour
 
     public void empty(int increment = 1)
     {
-        isEmpty = true;
-        sr.sprite = null;
-        hiveMind.emptyCells.Enqueue(this);
-        honeyCounter.totalHoney += increment;
+        if (!isEmpty)
+        {
+            isEmpty = true;
+            sr.sprite = null;
+            hiveMind.emptyCells.Enqueue(this);
+            honeyCounter.totalHoney += increment;
+        }
     }
 
     public void fill()
@@ -41,9 +44,6 @@ public class honeyCell : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!isEmpty)
-        {
-            empty(manualClick);
-        }
+        empty(manualClick);
     }
 }
