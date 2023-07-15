@@ -1738,10 +1738,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HiveMind
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 868209565489848353, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8383339978463296791, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2120342862}
   m_SourcePrefab: {fileID: 100100000, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
 --- !u!4 &1053855068 stripped
 Transform:
@@ -3561,6 +3565,36 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816fc4e9d75fe514f8ede8d14b851744, type: 3}
+--- !u!1 &2120342856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8383339978463296791, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
+  m_PrefabInstance: {fileID: 1051919333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2120342859 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3942698693224955214, guid: a1b05e862b01a014aa3efc7d51a2f5b4, type: 3}
+  m_PrefabInstance: {fileID: 1051919333}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120342856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df84932b8046ade4a8be2b6b8f65a3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2120342862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120342856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d045462176a2184ba7859f07ef62692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalHoney: {fileID: 2120342859}
+  m_textMeshPro: {fileID: 1786387325}
 --- !u!4 &2147226723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5456452944464521011, guid: 816fc4e9d75fe514f8ede8d14b851744, type: 3}
