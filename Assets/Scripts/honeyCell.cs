@@ -29,7 +29,7 @@ public class honeyCell : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        sr = GetComponentInChildren<SpriteRenderer>();
         GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
         hiveMind = controller.GetComponent<beeTrafficController>();
         honeyCounter = controller.GetComponent<honeyCounter>();

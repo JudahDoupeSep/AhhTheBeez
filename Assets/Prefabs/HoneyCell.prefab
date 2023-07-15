@@ -132,7 +132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCell: {fileID: 21300000, guid: d5c0153ef68699a48985081568a4ad6a, type: 3}
   isEmpty: 1
-  workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
 --- !u!60 &2621293336559528260
 PolygonCollider2D:
   m_ObjectHideFlags: 0
