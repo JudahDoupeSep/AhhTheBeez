@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5870796587787338720}
   - component: {fileID: 1497218008120936120}
   - component: {fileID: 3942698693224955214}
+  - component: {fileID: 3993863327271878819}
   m_Layer: 0
   m_Name: HiveMind
   m_TagString: HiveMind
@@ -58,3 +59,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalHoney: 0
+--- !u!114 &3993863327271878819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383339978463296791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3046409d28829c94f910aca9d8b86500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

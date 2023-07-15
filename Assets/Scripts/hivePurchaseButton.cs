@@ -8,17 +8,20 @@ public class hivePurchaseButton : MonoBehaviour
     public GameObject hive;
     public GameObject queenBeePurchaseButton;
     public GameObject priceInfo;
-    public Vector3[] newHivePositions;
     public int price = 30;
 
     private honeyCounter totalHoney;
-    private int nextPosition = 0;
+    private hiveManager hiveManager;
     private GameObject priceDisplay;
 
     // Start is called before the first frame update
     void Start()
     {
-        totalHoney = GameObject.FindGameObjectWithTag("HiveMind").GetComponent<honeyCounter>();
+        GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
+        totalHoney = controller.GetComponent<honeyCounter>();
+        hiveManager = controller.GetComponent<hiveManager>();
+        hiveManager.hives.Enqueue(gameObject);
+        gameObject.SetActive(false);
     }
 
     private void OnMouseDown()
@@ -27,12 +30,9 @@ public class hivePurchaseButton : MonoBehaviour
         {
             totalHoney.totalHoney -= price;
             Instantiate(hive, transform.position, Quaternion.identity);
-            // TODO: make this button invisible until we have enough honey to purchase?
-            if (nextPosition < newHivePositions.Length)
-            {
-                transform.position = newHivePositions[nextPosition];
-                nextPosition++;
-            }
+            hiveManager.popNextHiveButton();
+            Destroy(priceDisplay);
+            Destroy(gameObject);
         }
     }
 
