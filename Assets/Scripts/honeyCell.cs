@@ -6,24 +6,26 @@ public class honeyCell : MonoBehaviour
     public Sprite emptyCell;
     public Sprite filledCell;
     public bool isEmpty = true;
+    public beeTrafficController hiveMind;
 
     private SpriteRenderer sr;
 
-    void toggleCell()
+    public void empty()
     {
-        isEmpty = !isEmpty;
-        sr.sprite = isEmpty ? emptyCell : filledCell;
+        isEmpty = true;
+        sr.sprite = emptyCell;
+        hiveMind.emptyCells.Enqueue(this);
+    }
+
+    public void fill()
+    {
+        isEmpty = false;
+        sr.sprite = filledCell;
     }
 
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
