@@ -47,7 +47,7 @@ public class queenBee : MonoBehaviour
         if (totalHoney.totalHoney > price)
         {
             totalHoney.totalHoney -= price;
-            Instantiate(workerBee);
+            Instantiate(workerBee, transform.position, Quaternion.identity);
         }
     }
 }
