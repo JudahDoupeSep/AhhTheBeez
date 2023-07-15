@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class beeTrafficController : MonoBehaviour
 {
-    public Queue<honeyCell> emptyCells;
-    public Queue<workerBee> pollinatedBees;
+    public Queue<honeyCell> emptyCells = new Queue<honeyCell>();
+    public Queue<workerBee> pollinatedBees = new Queue<workerBee>();
 
     // Start is called before the first frame update
     void Start()
     {
-        emptyCells = new Queue<honeyCell>();
-        pollinatedBees = new Queue<workerBee>();
+
     }
 
     // Update is called once per frame

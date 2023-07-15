@@ -11,6 +11,7 @@ public class workerBee : MonoBehaviour
     public Transform flowerPosition; // TODO: need to find a way for any newly created bee to know where flowers are.
 
     private honeyCell targetCell;
+    private IEnumerator animationCoroutine;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,8 @@ public class workerBee : MonoBehaviour
 
     private void goToFlower()
     {
-        AnimateVector3(timeToReachFlower, transform.position, flowerPosition.position, pollenate);
+        animationCoroutine = AnimateVector3(timeToReachFlower, transform.position, flowerPosition.position, pollenate);
+        StartCoroutine(animationCoroutine);
     }
 
     private void pollenate()
@@ -31,7 +33,8 @@ public class workerBee : MonoBehaviour
     public void targetEmptyCell(honeyCell cell)
     {
         targetCell = cell;
-        AnimateVector3(timeToReachHoneyCell, transform.position, targetCell.GetComponent<Transform>().position, depositHoney);
+        animationCoroutine = AnimateVector3(timeToReachHoneyCell, transform.position, targetCell.GetComponent<Transform>().position, depositHoney);
+        StartCoroutine(animationCoroutine);
     }
 
     private void depositHoney()
