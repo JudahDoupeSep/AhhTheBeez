@@ -55,6 +55,7 @@ public class workerBee : MonoBehaviour
     {
         var remainingSeconds = seconds;
         var t = 0f;
+        lookAt(end.x, end.y);
         while (t < 1)
         {
             yield return new WaitForEndOfFrame();
@@ -64,5 +65,13 @@ public class workerBee : MonoBehaviour
         }
         setPosition(end);
         callback.Invoke();
+    }
+
+    private void lookAt(float x, float y)
+    {
+        x = x - transform.position.x;
+        y = y - transform.position.y;
+        float angle = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
     }
 }
