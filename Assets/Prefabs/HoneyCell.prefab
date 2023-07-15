@@ -98,9 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e78ceecd77a60c4d92c993ceb88febc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filledCell: {fileID: 21300000, guid: 145cd2ebcbd906c4cbf1e1780ecf140a, type: 3}
+  filledCell: {fileID: 21300000, guid: d5c0153ef68699a48985081568a4ad6a, type: 3}
   isEmpty: 1
-  hiveMind: {fileID: 0}
   workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
 --- !u!60 &2621293336559528260
 PolygonCollider2D:
