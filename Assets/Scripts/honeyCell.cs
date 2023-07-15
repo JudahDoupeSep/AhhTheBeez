@@ -6,6 +6,7 @@ public class honeyCell : MonoBehaviour
     public Sprite filledCell;
     public bool isEmpty = true;
     public beeTrafficController hiveMind;
+    public GameObject workerBee;
 
     private SpriteRenderer sr;
 
@@ -24,8 +25,9 @@ public class honeyCell : MonoBehaviour
 
     public void spawnBee()
     {
-        //TODO: actually spawn a worker bee
         empty();
+        workerBee newBee = Instantiate(workerBee, transform.position, Quaternion.identity).GetComponent<workerBee>();
+        newBee.hiveMind = hiveMind;
     }
 
     // Start is called before the first frame update

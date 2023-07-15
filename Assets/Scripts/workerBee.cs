@@ -8,18 +8,19 @@ public class workerBee : MonoBehaviour
     public float timeToReachFlower = 2.0f;
     public float timeToReachHoneyCell = 2.0f;
     public beeTrafficController hiveMind;
-    public Transform flowerPosition; // TODO: need to find a way for any newly created bee to know where flowers are.
 
+    private Transform flowerPosition;
     private honeyCell targetCell;
     private IEnumerator animationCoroutine;
 
     // Start is called before the first frame update
     void Start()
     {
+        flowerPosition = GameObject.FindGameObjectWithTag("Flower").transform;
         goToFlower();
     }
 
-    private void goToFlower()
+    public void goToFlower()
     {
         animationCoroutine = AnimateVector3(timeToReachFlower, transform.position, flowerPosition.position, pollenate);
         StartCoroutine(animationCoroutine);
