@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class hivePurchaseButton : MonoBehaviour
@@ -38,7 +39,7 @@ public class hivePurchaseButton : MonoBehaviour
     private void OnMouseEnter()
     {
         priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
-        priceDisplay.GetComponentInChildren<TextMesh>().text = price.ToString();
+        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
     }
 
     private void OnMouseExit()

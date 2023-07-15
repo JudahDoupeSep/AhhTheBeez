@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class queenBeePurchase : MonoBehaviour
@@ -9,6 +10,15 @@ public class queenBeePurchase : MonoBehaviour
     private honeyCounter totalHoney;
 
     public int price = 5;
+
+    private GameObject priceDisplay;
+    public GameObject priceInfo;
+
+    void Start()
+    {
+        GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
+        totalHoney = controller.GetComponent<honeyCounter>();
+    }
 
     private void OnMouseDown()
     {
@@ -21,9 +31,14 @@ public class queenBeePurchase : MonoBehaviour
         }
     }
 
-    void Start()
+    private void OnMouseEnter()
     {
-        GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
-        totalHoney = controller.GetComponent<honeyCounter>();
+        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
+        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
+    }
+
+    private void OnMouseExit()
+    {
+        Destroy(priceDisplay);
     }
 }
