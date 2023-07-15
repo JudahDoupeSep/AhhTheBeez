@@ -98,10 +98,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161ed0508e9785540a9c97b3fce9ce44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 10
-  price: 3
+  timeToWait: 5
+  timeBetweenCollection: 0.15
+  workerBeePrice: 3
+  scale: 0.3
   workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
   hive: {fileID: 0}
+  priceInfo: {fileID: 8971518896489560171, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
 --- !u!58 &5038771068553257844
 CircleCollider2D:
   m_ObjectHideFlags: 0

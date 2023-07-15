@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using TMPro;
 using UnityEngine;
 
 public class queenBee : MonoBehaviour
@@ -15,6 +17,9 @@ public class queenBee : MonoBehaviour
     public float scale = 0.3f;
     public GameObject workerBee;
     public GameObject hive;
+
+    private GameObject priceDisplay;
+    public GameObject priceInfo;
 
     private int count = 0;
     
@@ -33,6 +38,9 @@ public class queenBee : MonoBehaviour
         {
             setHive(hive);
         }
+
+        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
+        priceDisplay.GetComponentInChildren<TextMeshPro>().text = string.Format("Buy Worker Bee: {0}", workerBeePrice.ToString());
     }
 
     // Update is called once per frame
@@ -77,6 +85,7 @@ public class queenBee : MonoBehaviour
             Instantiate(workerBee, transform.position, Quaternion.identity);
             totalBees.totalBees++;
             workerBeePrice = (int)(scale * totalBees.totalBees + workerBeePrice);
+            priceDisplay.GetComponentInChildren<TextMeshPro>().text = string.Format("Buy Worker Bee: {0}", workerBeePrice.ToString());
         }
     }
 }
