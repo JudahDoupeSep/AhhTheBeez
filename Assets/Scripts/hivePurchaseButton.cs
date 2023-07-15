@@ -6,11 +6,13 @@ public class hivePurchaseButton : MonoBehaviour
 {
     public GameObject hive;
     public GameObject queenBeePurchaseButton;
+    public GameObject priceInfo;
     public Vector3[] newHivePositions;
-    public int cost = 30;
+    public int price = 30;
 
     private honeyCounter totalHoney;
     private int nextPosition = 0;
+    private GameObject priceDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +22,9 @@ public class hivePurchaseButton : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (totalHoney.totalHoney >= cost)
+        if (totalHoney.totalHoney >= price)
         {
-            totalHoney.totalHoney -= cost;
+            totalHoney.totalHoney -= price;
             GameObject newHive = Instantiate(hive, transform.position, Quaternion.identity);
             GameObject newQueenBeeButton = Instantiate(queenBeePurchaseButton, transform.position, Quaternion.identity);
             newQueenBeeButton.GetComponent<queenBeePurchase>().hive = newHive;
@@ -33,5 +35,16 @@ public class hivePurchaseButton : MonoBehaviour
                 nextPosition++;
             }
         }
+    }
+
+    private void OnMouseEnter()
+    {
+        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
+        priceDisplay.GetComponentInChildren<TextMesh>().text = price.ToString();
+    }
+
+    private void OnMouseExit()
+    {
+        DestroyImmediate(priceDisplay);
     }
 }
