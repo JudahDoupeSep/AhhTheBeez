@@ -27,11 +27,11 @@ Transform:
   m_GameObject: {fileID: 3894301714991178959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 2.6779926, y: 2.6779926, z: 2.6779926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6755064423492853727
 SpriteRenderer:
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 77fbbd30ac009e44fb8334698429bdfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e2cfabf0b44358043902c245af138a83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,5 +99,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToReachFlower: 2
   timeToReachHoneyCell: 2
-  hiveMind: {fileID: 0}
-  flowerPosition: {fileID: 0}
