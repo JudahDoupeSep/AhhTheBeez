@@ -5,9 +5,9 @@ public class honeyCell : MonoBehaviour
 {
     public Sprite filledCell;
     public bool isEmpty = true;
-    public beeTrafficController hiveMind;
     public GameObject workerBee;
 
+    private beeTrafficController hiveMind;
     private SpriteRenderer sr;
 
     public void empty()
@@ -27,6 +27,7 @@ public class honeyCell : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        hiveMind = GameObject.FindGameObjectWithTag("HiveMind").GetComponent<beeTrafficController>();
         if (isEmpty && hiveMind != null)
         {
             hiveMind.emptyCells.Enqueue(this);
@@ -38,8 +39,7 @@ public class honeyCell : MonoBehaviour
         if (!isEmpty)
         {
             empty();
-            workerBee newBee = Instantiate(workerBee, transform.position, Quaternion.identity).GetComponent<workerBee>();
-            newBee.hiveMind = hiveMind;
+            Instantiate(workerBee, transform.position, Quaternion.identity);
         }
     }
 }

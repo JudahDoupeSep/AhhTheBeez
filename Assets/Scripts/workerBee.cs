@@ -7,8 +7,8 @@ public class workerBee : MonoBehaviour
 {
     public float timeToReachFlower = 2.0f;
     public float timeToReachHoneyCell = 2.0f;
-    public beeTrafficController hiveMind;
 
+    private beeTrafficController hiveMind;
     private Transform flowerPosition;
     private honeyCell targetCell;
     private IEnumerator animationCoroutine;
@@ -17,6 +17,7 @@ public class workerBee : MonoBehaviour
     void Start()
     {
         flowerPosition = GameObject.FindGameObjectWithTag("Flower").transform;
+        hiveMind = GameObject.FindGameObjectWithTag("HiveMind").GetComponent<beeTrafficController>();
         goToFlower();
     }
 
