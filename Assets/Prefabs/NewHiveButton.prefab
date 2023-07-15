@@ -421,6 +421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hive: {fileID: 2104914081765347295, guid: 2d2f8747834564e448750f78e1d4bbcb, type: 3}
+  queenBeePurchaseButton: {fileID: 5669899296064843815, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
   newHivePositions:
   - {x: 8.87, y: 3.56, z: 0}
   - {x: 7.88, y: -5.19, z: 0}
