@@ -78,7 +78,7 @@ Transform:
   m_GameObject: {fileID: 2242942384190179527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.13, y: 15.13, z: 15.13}
+  m_LocalScale: {x: 11, y: 11, z: 11}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1018549738292235232}
@@ -124,7 +124,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 423e1191dd7877243ae091f17423b139, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -150,23 +150,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.78
+      value: 2.64
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7799997
+      value: -1.46
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -204,6 +204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -228,23 +232,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.77
+      value: -3.506
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7799997
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -282,6 +286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -306,23 +314,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.19
+      value: 0.89
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9799998
+      value: -1.436
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -360,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -384,23 +396,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.59
+      value: -2.629
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9699998
+      value: -1.439
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -438,6 +450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -462,23 +478,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4
+      value: -0.888
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.35
+      value: -4.066
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -516,6 +532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -540,11 +560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 827370642476570375, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.04
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 827370642476570375, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.19
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 827370642476570375, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -582,45 +602,9 @@ PrefabInstance:
       propertyPath: hive
       value: 
       objectReference: {fileID: 2104914081765347295}
-    - target: {fileID: 3845735318889379453, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845735318889379453, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845735318889379453, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5669899296064843815, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
       propertyPath: m_Name
       value: NewQueenBeeButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523974669137330695, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523974669137330695, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523974669137330695, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8529487786733532545, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8529487786733532545, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8529487786733532545, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -646,23 +630,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1999999
+      value: -1.761
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.59
+      value: -5.376
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -700,6 +684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -724,23 +712,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6
+      value: -2.634
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.59
+      value: -4.053
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -778,6 +766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -802,23 +794,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.39
+      value: 1.773
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.21000004
+      value: -0.107
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -856,6 +848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -880,23 +876,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.42
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.39
+      value: -4.054
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -934,6 +930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -958,23 +958,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1999999
+      value: -0.873
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9899998
+      value: -1.429
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1012,6 +1012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1036,23 +1040,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3799999
+      value: -1.755
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.19000006
+      value: -0.124
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1090,6 +1094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1114,23 +1122,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.78
+      value: -2.746
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1192,23 +1200,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5800002
+      value: 3.529
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.02
+      value: -2.753
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1246,6 +1254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1274,23 +1286,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.21
+      value: 1.744
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.68
+      value: -5.457
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1328,6 +1340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1352,23 +1368,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.6000001
+      value: 1.769
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.56
+      value: -2.743
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1406,6 +1422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1430,23 +1450,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.020000007
+      value: 0.009
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.21000004
+      value: -0.124
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1484,6 +1504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1508,23 +1532,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.36
+      value: -1.766
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7799997
+      value: -2.743
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1562,6 +1586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1586,23 +1614,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7799997
+      value: -4.059
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1640,6 +1668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoneyCell (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1664,23 +1696,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3016584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.3999996
+      value: -5.37
       objectReference: {fileID: 0}
     - target: {fileID: 1649676924414109406, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1717,6 +1749,10 @@ PrefabInstance:
     - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
       propertyPath: m_Name
       value: HoneyCell (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8511013297890781282, guid: 576cbad27f69dea469c8873132a3a9cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
