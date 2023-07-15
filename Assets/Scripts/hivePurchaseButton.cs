@@ -5,6 +5,7 @@ using UnityEngine;
 public class hivePurchaseButton : MonoBehaviour
 {
     public GameObject hive;
+    public GameObject queenBeePurchaseButton;
     public Vector3[] newHivePositions;
     public int cost = 30;
 
@@ -22,7 +23,9 @@ public class hivePurchaseButton : MonoBehaviour
         if (totalHoney.totalHoney >= cost)
         {
             totalHoney.totalHoney -= cost;
-            Instantiate(hive, transform.position, Quaternion.identity);
+            GameObject newHive = Instantiate(hive, transform.position, Quaternion.identity);
+            GameObject newQueenBeeButton = Instantiate(queenBeePurchaseButton, transform.position, Quaternion.identity);
+            newQueenBeeButton.GetComponent<queenBeePurchase>().hive = newHive;
             // TODO: make this button invisible until we have enough honey to purchase?
             if (nextPosition < newHivePositions.Length)
             {
