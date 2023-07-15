@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fee1f1830a5a73f4f8515dfbda823e05
+guid: 1b7f34205341fe64f9857f80b142b349
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Hive
+  - name: Tree
     originalName: 
-    pivot: {x: 0.5, y: -0.027522935}
+    pivot: {x: 0.5059289, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 90
-      height: 109
-    spriteID: dcb58dfeb2be21d4e8f3e3dd392930e5
+      width: 506
+      height: 497
+    spriteID: 35742b54d1787324d961e4638b070390
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1754028024
-    name: Hive
+    guid: 780980726
+    name: Tree
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Hive
+    - name: Tree
       frameIndex: 0
       cellRect:
-        x: 19
-        y: 3
-        width: 90
-        height: 109
-      spriteId: dcb58dfeb2be21d4e8f3e3dd392930e5
+        x: 0
+        y: 0
+        width: 506
+        height: 497
+      spriteId: 35742b54d1787324d961e4638b070390
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 128}
+  canvasSize: {x: 512, y: 512}
