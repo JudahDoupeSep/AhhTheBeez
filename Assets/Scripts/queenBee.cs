@@ -7,6 +7,7 @@ public class queenBee : MonoBehaviour
     private honeyCell[] honeyCells;
     private float timeLastHarvested = 0;
     private honeyCounter totalHoney;
+    private beeCounter totalBees;
 
     public float timeToWait = 5f;
     public float timeBetweenCollection = 0.15f; 
@@ -26,6 +27,7 @@ public class queenBee : MonoBehaviour
     {
         GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
         totalHoney = controller.GetComponent<honeyCounter>();
+        totalBees = controller.GetComponent<beeCounter>();
         if (hive != null)
         {
             setHive(hive);
@@ -72,6 +74,7 @@ public class queenBee : MonoBehaviour
         {
             totalHoney.totalHoney -= price;
             Instantiate(workerBee, transform.position, Quaternion.identity);
+            totalBees.totalBees++;
         }
     }
 }
