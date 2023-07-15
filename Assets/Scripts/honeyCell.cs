@@ -14,10 +14,13 @@ public class honeyCell : MonoBehaviour
 
     public void empty(int increment = 1)
     {
-        isEmpty = true;
-        sr.sprite = null;
-        hiveMind.emptyCells.Enqueue(this);
-        honeyCounter.totalHoney += increment;
+        if (!isEmpty)
+        {
+            isEmpty = true;
+            sr.sprite = null;
+            hiveMind.emptyCells.Enqueue(this);
+            honeyCounter.totalHoney += increment;
+        }
     }
 
     public void fill()
@@ -33,17 +36,13 @@ public class honeyCell : MonoBehaviour
         GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
         hiveMind = controller.GetComponent<beeTrafficController>();
         honeyCounter = controller.GetComponent<honeyCounter>();
-        if (isEmpty && hiveMind != null)
-        {
-            hiveMind.emptyCells.Enqueue(this);
-        }
+        isEmpty = true;
+        sr.sprite = null;
+        hiveMind.emptyCells.Enqueue(this);
     }
 
     private void OnMouseDown()
     {
-        if (!isEmpty)
-        {
-            empty(manualClick);
-        }
+        empty(manualClick);
     }
 }

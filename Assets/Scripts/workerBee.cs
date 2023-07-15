@@ -9,21 +9,22 @@ public class workerBee : MonoBehaviour
     public float timeToReachHoneyCell = 2.0f;
 
     private beeTrafficController hiveMind;
-    private Transform flowerPosition;
+    private GameObject[] flowers;
     private honeyCell targetCell;
     private IEnumerator animationCoroutine;
 
     // Start is called before the first frame update
     void Start()
     {
-        flowerPosition = GameObject.FindGameObjectWithTag("Flower").transform;
+        flowers = GameObject.FindGameObjectsWithTag("Flower");
         hiveMind = GameObject.FindGameObjectWithTag("HiveMind").GetComponent<beeTrafficController>();
         goToFlower();
     }
 
     public void goToFlower()
     {
-        animationCoroutine = AnimateVector3(timeToReachFlower, transform.position, flowerPosition.position, pollenate);
+        Vector3 flowerPosition = flowers[UnityEngine.Random.Range(0, flowers.Length)].transform.position;
+        animationCoroutine = AnimateVector3(timeToReachFlower, transform.position, flowerPosition, pollenate);
         StartCoroutine(animationCoroutine);
     }
 
