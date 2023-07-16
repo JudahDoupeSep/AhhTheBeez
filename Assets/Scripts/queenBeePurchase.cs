@@ -9,7 +9,6 @@ public class queenBeePurchase : MonoBehaviour
     public int price = 5;
     private hiveManager hiveManager;
 
-    public int price = 0;
     private readonly int basePrice = 10;
     private readonly float scale = 0.75f;
 
