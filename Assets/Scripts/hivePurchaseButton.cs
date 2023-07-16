@@ -12,7 +12,7 @@ public class hivePurchaseButton : MonoBehaviour
 
     private honeyCounter totalHoney;
     private hiveManager hiveManager;
-    private GameObject priceDisplay;
+    public PriceDisplay priceDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -31,19 +31,17 @@ public class hivePurchaseButton : MonoBehaviour
             totalHoney.totalHoney -= price;
             Instantiate(hive, transform.position, Quaternion.identity);
             hiveManager.popNextHiveButton();
-            Destroy(priceDisplay);
             Destroy(gameObject);
         }
     }
 
     private void OnMouseEnter()
     {
-        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
-        priceDisplay.GetComponentInChildren<TextMeshPro>().text = price.ToString();
+        priceDisplay.ShowName();
     }
 
     private void OnMouseExit()
     {
-        DestroyImmediate(priceDisplay);
+        priceDisplay.HideName();
     }
 }

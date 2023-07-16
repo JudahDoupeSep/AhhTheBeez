@@ -18,8 +18,7 @@ public class queenBee : MonoBehaviour
     public GameObject workerBee;
     public GameObject hive;
 
-    private GameObject priceDisplay;
-    public GameObject priceInfo;
+    public PriceDisplay priceDisplay;
 
     private int count = 0;
     
@@ -38,9 +37,6 @@ public class queenBee : MonoBehaviour
         {
             setHive(hive);
         }
-
-        priceDisplay = Instantiate(priceInfo, transform.position, Quaternion.identity);
-        priceDisplay.GetComponentInChildren<TextMeshPro>().text = string.Format("Buy Worker Bee: {0}", workerBeePrice.ToString());
     }
 
     // Update is called once per frame
@@ -85,7 +81,19 @@ public class queenBee : MonoBehaviour
             Instantiate(workerBee, transform.position, Quaternion.identity);
             totalBees.totalBees++;
             workerBeePrice = (int)(scale * totalBees.totalBees + workerBeePrice);
-            priceDisplay.GetComponentInChildren<TextMeshPro>().text = string.Format("Buy Worker Bee: {0}", workerBeePrice.ToString());
+            priceDisplay.UpdatePrice(workerBeePrice);
         }
+    }
+    
+    
+
+    private void OnMouseEnter()
+    {
+        priceDisplay.ShowName();
+    }
+
+    private void OnMouseExit()
+    {
+        priceDisplay.HideName();
     }
 }
