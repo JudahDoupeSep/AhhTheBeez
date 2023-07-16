@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7952490940894385321}
   - component: {fileID: 434299588005801838}
   - component: {fileID: -3424263215709404771}
+  - component: {fileID: 209201396125427573}
   m_Layer: 0
   m_Name: Purple_Flower
   m_TagString: Flower
@@ -182,4 +183,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8711f5f3c95009f47bd15534a7d5846d, type: 3}
   m_Name: shaddow
   m_EditorClassIdentifier: 
-  randomClip: {fileID: 0}
+  randomClip: {fileID: 8300000, guid: 98277d052d0b07c49a5128e3dab0db6b, type: 3}
+--- !u!61 &209201396125427573
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389869496708416495}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.040533543, y: 0.07349205}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3930655, y: 4.59295}
+  m_EdgeRadius: 0
