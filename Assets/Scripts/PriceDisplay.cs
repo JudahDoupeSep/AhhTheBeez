@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PriceDisplay : MonoBehaviour
@@ -30,6 +27,11 @@ public class PriceDisplay : MonoBehaviour
         NameText.gameObject.SetActive(false);
     }
 
+    void Start()
+    {
+        HideName();
+    }
+    
     void Update()
     {
         UpdateBackground();
