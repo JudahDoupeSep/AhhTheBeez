@@ -130,6 +130,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1309347aadfa6842b30e7db493deb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 9380e1cae0d85bc41824343cac5c5f11, type: 3}
+  - {fileID: 21300000, guid: e2cfabf0b44358043902c245af138a83, type: 3}
+  WiggleDistance: 2
   timeToReachFlower: 2
   timeToReachHoneyCell: 2
   honeyTrail: {fileID: 4854047379839629409}
