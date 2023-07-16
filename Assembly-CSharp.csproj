@@ -89,6 +89,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\beeTrafficController.cs" />
+     <Compile Include="Assets\Scripts\ShakeRandomly.cs" />
      <Compile Include="Assets\Scripts\workerBee.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Folder Include="Assets" />
