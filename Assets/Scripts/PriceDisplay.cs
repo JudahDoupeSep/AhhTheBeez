@@ -9,7 +9,7 @@ public class PriceDisplay : MonoBehaviour
 
     public void UpdatePrice(int newPrice)
     {
-        PriceText.text = $"Price: {newPrice}";
+        PriceText.text = $"{newPrice}";
     }
     
     public void UpdateItemName(string newName)
@@ -27,11 +27,6 @@ public class PriceDisplay : MonoBehaviour
         NameText.gameObject.SetActive(false);
     }
 
-    void Start()
-    {
-        HideName();
-    }
-    
     void Update()
     {
         UpdateBackground();
