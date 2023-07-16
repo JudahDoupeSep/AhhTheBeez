@@ -21,7 +21,7 @@ public class queenBee : MonoBehaviour
     public PriceDisplay priceDisplay;
 
     private int count = 0;
-    
+    public AudioClip Buzz;
     public void setHive(GameObject hive)
     {
         honeyCells = hive.GetComponentsInChildren<honeyCell>();
@@ -82,6 +82,7 @@ public class queenBee : MonoBehaviour
             totalBees.totalBees++;
             workerBeePrice = (int)(scale * totalBees.totalBees + workerBeePrice);
             priceDisplay.UpdatePrice(workerBeePrice);
+            audioManager.PlaySound(Buzz);
         }
     }
     

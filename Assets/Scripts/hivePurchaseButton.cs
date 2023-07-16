@@ -13,6 +13,7 @@ public class hivePurchaseButton : MonoBehaviour
     private honeyCounter totalHoney;
     private hiveManager hiveManager;
     public PriceDisplay priceDisplay;
+    public AudioClip Honey_Important;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class hivePurchaseButton : MonoBehaviour
             Instantiate(hive, transform.position, Quaternion.identity);
             hiveManager.popNextHiveButton();
             Destroy(gameObject);
+            audioManager.PlaySound(Honey_Important);
         }
     }
 

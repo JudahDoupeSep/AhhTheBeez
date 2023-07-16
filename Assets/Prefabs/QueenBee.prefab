@@ -54,6 +54,7 @@ MonoBehaviour:
   workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
   hive: {fileID: 0}
   priceDisplay: {fileID: 6627019607279644338}
+  Buzz: {fileID: 8300000, guid: 60df304f45886c64785d0871082036b1, type: 3}
 --- !u!58 &5038771068553257844
 CircleCollider2D:
   m_ObjectHideFlags: 0

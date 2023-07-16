@@ -386,6 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   queenBee: {fileID: 430236303108874378, guid: 402de078eb29bf9408b3e97457ec30a4, type: 3}
   hive: {fileID: 0}
+  Jazz: {fileID: 8300000, guid: ac4bf376433a29340995584ffc7ce07e, type: 3}
   price: 5
   priceDisplay: {fileID: 5555373378144895325}
 --- !u!58 &3024522614073183353
@@ -479,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.47
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -499,7 +500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3906546298528233999, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.655
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3906546298528233999, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -543,7 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720023524208116992, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1.1982
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8720023524208116992, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_LocalPosition.x

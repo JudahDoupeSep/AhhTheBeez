@@ -5,7 +5,7 @@ public class queenBeePurchase : MonoBehaviour
     public GameObject queenBee;
     public GameObject hive;
     private honeyCounter totalHoney;
-
+    public AudioClip Jazz;
     public int price = 5;
 
     public PriceDisplay priceDisplay;
@@ -24,6 +24,7 @@ public class queenBeePurchase : MonoBehaviour
             GameObject newQueen = Instantiate(queenBee, transform.position, Quaternion.identity);
             newQueen.GetComponent<queenBee>().setHive(hive);
             Destroy(gameObject);
+            audioManager.PlaySound(Jazz);
         }
     }
     
