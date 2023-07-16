@@ -37,6 +37,7 @@ public class queenBee : MonoBehaviour
         {
             setHive(hive);
         }
+        priceDisplay.UpdatePrice(workerBeePrice);
     }
 
     // Update is called once per frame
