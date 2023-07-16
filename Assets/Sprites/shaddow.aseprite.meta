@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59c68441839b22f4e9aa13591c4d68e7
+guid: ab3896548794c8742bc2be2f241cd7e4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Tree2
+  - name: shaddow
     originalName: 
-    pivot: {x: 0.49306294, y: 0}
+    pivot: {x: 0.5, y: -0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 937
-      height: 540
-    spriteID: 0dd79f7b799c2c0459da46af77b91595
+      width: 16
+      height: 7
+    spriteID: cdff50bdfe3b2db4f91d9997a9cc579b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -2051045600
-    name: Tree2
+    guid: 619357978
+    name: shaddow
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Tree2
+    - name: shaddow
       frameIndex: 0
       cellRect:
-        x: 18
-        y: 0
-        width: 937
-        height: 540
-      spriteId: 0dd79f7b799c2c0459da46af77b91595
+        x: 0
+        y: 4
+        width: 16
+        height: 7
+      spriteId: cdff50bdfe3b2db4f91d9997a9cc579b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 960, y: 540}
+  canvasSize: {x: 16, y: 16}
