@@ -279,8 +279,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -505,6 +505,8 @@ MonoBehaviour:
   NameText: {fileID: 1218252440150227734}
   PriceText: {fileID: 4557566594144352156}
   Padding: 1
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  ErrorColor: {r: 0.11320752, g: 0, b: 0, a: 1}
 --- !u!1 &5284507467368636403
 GameObject:
   m_ObjectHideFlags: 0
