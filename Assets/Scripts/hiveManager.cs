@@ -5,6 +5,7 @@ using UnityEngine;
 public class hiveManager : MonoBehaviour
 {
     public Queue<GameObject> hives = new Queue<GameObject>();
+    public int hiveCount = 1;
     private GameObject currentAvailableButton;
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class hiveManager : MonoBehaviour
         if (hives.Count > 0)
         {
             GameObject newHiveButton = hives.Dequeue();
+            hiveCount++;
             currentAvailableButton = newHiveButton;
             newHiveButton.SetActive(true);
         }

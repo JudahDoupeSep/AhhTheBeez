@@ -8,12 +8,15 @@ public class hivePurchaseButton : MonoBehaviour
     public GameObject hive;
     public GameObject queenBeePurchaseButton;
     public GameObject priceInfo;
-    public int price = 30;
 
     private honeyCounter totalHoney;
     private hiveManager hiveManager;
     public PriceDisplay priceDisplay;
     public AudioClip Honey_Important;
+
+    public int price;
+    private float scale = 0.75f;
+    private int basePrice = 30;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class hivePurchaseButton : MonoBehaviour
         hiveManager = controller.GetComponent<hiveManager>();
         hiveManager.hives.Enqueue(gameObject);
         gameObject.SetActive(false);
+        price = (int)(hiveManager.hives.Count * basePrice * scale);
+        priceDisplay.UpdatePrice(price);
     }
 
     private void OnMouseDown()

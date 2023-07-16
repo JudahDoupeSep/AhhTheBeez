@@ -424,9 +424,9 @@ MonoBehaviour:
   hive: {fileID: 2104914081765347295, guid: 2d2f8747834564e448750f78e1d4bbcb, type: 3}
   queenBeePurchaseButton: {fileID: 5669899296064843815, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
   priceInfo: {fileID: 8971518896489560171, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
-  price: 30
   priceDisplay: {fileID: 2133269118234196842}
   Honey_Important: {fileID: 8300000, guid: 63673abacc190d6459f6d22cb11c3a6a, type: 3}
+  price: 30
 --- !u!1001 &3692996348129803322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -449,6 +449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 1.12
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
@@ -483,9 +484,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: PriceDisplay
       objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4557566594144352156, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_text
-      value: 'Price: 30'
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868282174116446145, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868282174116446145, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868282174116446145, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868282174116446145, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8720023524208116992, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_Pivot.x

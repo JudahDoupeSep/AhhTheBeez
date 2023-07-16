@@ -7,6 +7,11 @@ public class queenBeePurchase : MonoBehaviour
     private honeyCounter totalHoney;
     public AudioClip Jazz;
     public int price = 5;
+    private hiveManager hiveManager;
+
+    public int price = 0;
+    private readonly int basePrice = 10;
+    private readonly float scale = 0.75f;
 
     public PriceDisplay priceDisplay;
 
@@ -14,6 +19,9 @@ public class queenBeePurchase : MonoBehaviour
     {
         GameObject controller = GameObject.FindGameObjectWithTag("HiveMind");
         totalHoney = controller.GetComponent<honeyCounter>();
+        hiveManager = controller.GetComponent<hiveManager>();
+        price = hiveManager.hiveCount != 1 ? (int)(basePrice * hiveManager.hiveCount * scale) : basePrice;
+        priceDisplay.UpdatePrice(price);
     }
 
     private void OnMouseDown()

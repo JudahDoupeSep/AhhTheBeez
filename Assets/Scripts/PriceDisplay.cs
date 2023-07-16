@@ -7,9 +7,15 @@ public class PriceDisplay : MonoBehaviour
     public TextMeshPro PriceText;
     public float Padding;
 
+    public Color TextColor;
+    public Color ErrorColor;
+    
+    private int _price;
+    
     public void UpdatePrice(int newPrice)
     {
-        PriceText.text = $"Price: {newPrice}";
+        _price = newPrice;
+        PriceText.text = $"{newPrice}";
     }
     
     public void UpdateItemName(string newName)
@@ -27,14 +33,10 @@ public class PriceDisplay : MonoBehaviour
         NameText.gameObject.SetActive(false);
     }
 
-    void Start()
-    {
-        HideName();
-    }
-    
     void Update()
     {
         UpdateBackground();
+        UpdatePriceText();
     }
 
     void UpdateBackground()
@@ -42,5 +44,14 @@ public class PriceDisplay : MonoBehaviour
         var sprite = GetComponent<SpriteRenderer>();
         var rect = GetComponent<RectTransform>().rect;
         sprite.size = new Vector2(rect.width + Padding, rect.height + Padding);
+    }
+
+    void UpdatePriceText()
+    {
+        var color = FindObjectOfType<honeyCounter>().totalHoney < _price
+            ? ErrorColor
+            : TextColor;
+        PriceText.color = color;
+        PriceText.text = _price.ToString();
     }
 }
