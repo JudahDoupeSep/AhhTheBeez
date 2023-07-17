@@ -1238,10 +1238,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2115.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438444787457951442, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -245.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5570234393649805520, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
       propertyPath: totalHoney
       value: 
       objectReference: {fileID: 1746602701}
+    - target: {fileID: 7728881224256305961, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728881224256305961, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1200
+      objectReference: {fileID: 0}
     - target: {fileID: 8582485209859674408, guid: 8191dcdbefe07034ead1983d950afb0f, type: 3}
       propertyPath: m_Name
       value: Canvas
