@@ -386,7 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   queenBee: {fileID: 430236303108874378, guid: 402de078eb29bf9408b3e97457ec30a4, type: 3}
   hive: {fileID: 0}
-  Jazz: {fileID: 8300000, guid: ac4bf376433a29340995584ffc7ce07e, type: 3}
+  Jazz: {fileID: 8300000, guid: d0430b642d8f0b6448fe3bb0de3bfe4e, type: 3}
   price: 5
   priceDisplay: {fileID: 5555373378144895325}
 --- !u!58 &3024522614073183353
