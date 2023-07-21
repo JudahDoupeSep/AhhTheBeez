@@ -94,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7952490940894385321}
   - component: {fileID: 434299588005801838}
-  - component: {fileID: -3424263215709404771}
   - component: {fileID: 209201396125427573}
   m_Layer: 0
   m_Name: Purple_Flower
@@ -171,19 +170,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-3424263215709404771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6389869496708416495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8711f5f3c95009f47bd15534a7d5846d, type: 3}
-  m_Name: shaddow
-  m_EditorClassIdentifier: 
-  randomClip: {fileID: 8300000, guid: 98277d052d0b07c49a5128e3dab0db6b, type: 3}
 --- !u!61 &209201396125427573
 BoxCollider2D:
   m_ObjectHideFlags: 0

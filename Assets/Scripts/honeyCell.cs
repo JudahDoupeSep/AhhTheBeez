@@ -20,6 +20,9 @@ public class honeyCell : MonoBehaviour
             sr.sprite = null;
             hiveMind.emptyCells.Enqueue(this);
             honeyCounter.totalHoney += increment;
+            var sound = GetComponent<AudioSource>();
+            sound.pitch = Random.Range(0.5f, 1f);
+            sound.Play();
         }
     }
 

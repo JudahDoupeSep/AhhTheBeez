@@ -425,7 +425,7 @@ MonoBehaviour:
   queenBeePurchaseButton: {fileID: 5669899296064843815, guid: f56690f3c43d7db4b8fafe749a7a7b2e, type: 3}
   priceInfo: {fileID: 8971518896489560171, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
   priceDisplay: {fileID: 2133269118234196842}
-  Honey_Important: {fileID: 8300000, guid: 63673abacc190d6459f6d22cb11c3a6a, type: 3}
+  Honey_Important: {fileID: 8300000, guid: 53a50fd4263228946acaf94c5b2374db, type: 3}
   price: 30
 --- !u!1001 &3692996348129803322
 PrefabInstance:
@@ -450,7 +450,6 @@ PrefabInstance:
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 1.12
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -54,7 +54,7 @@ MonoBehaviour:
   workerBee: {fileID: 3894301714991178959, guid: ab0241618194a904997845ff3aebde17, type: 3}
   hive: {fileID: 0}
   priceDisplay: {fileID: 6627019607279644338}
-  Buzz: {fileID: 8300000, guid: 60df304f45886c64785d0871082036b1, type: 3}
+  Buzz: {fileID: 8300000, guid: c22cd6cca740e23499040a78bc637555, type: 3}
 --- !u!58 &5038771068553257844
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.935
       objectReference: {fileID: 0}
     - target: {fileID: 573575307132028911, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3906546298528233999, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 3906546298528233999, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -294,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 4085193742855048354, guid: 1226ef1ae5145494da342bf152bdde0d, type: 3}
       propertyPath: m_AnchoredPosition.y
